@@ -1,13 +1,43 @@
 html {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
+  height: 100%;
 }
 
-h1, h2, h3 {
+body {
+  min-height: 100%;
+  display: grid;
+}
+
+h1, h2 {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
 }
 
-h2 {
+h1 {
   text-align: center;
+}
+
+header {
+  background-color: #656464;
+}
+
+.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+main {
+  padding-top: 1.5em;
+}
+
+.foot-try {
+  background-color: #000000;
+  text-align: center;
+}
+
+.footer-text {
+  color: #ffffff;
 }
